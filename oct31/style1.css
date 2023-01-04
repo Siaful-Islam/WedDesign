@@ -1,0 +1,30 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.taskin {
+  background: green;
+  color: blueviolet;
+}
+.potaka {
+  width: 100px;
+  height: 200px;
+  margin: 20px;
+  border: 3px solid blue;
+}
+.kalu {
+  width: 100px;
+  height: 33px;
+  background: black;
+}
+.lalu {
+  width: 100px;
+  height: 34px;
+  background: red;
+}
+.halu {
+  width: 100px;
+  height: 33px;
+  background: yellow;
+}

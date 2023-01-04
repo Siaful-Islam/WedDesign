@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  margin: 100%;
+  height: 100vh;
+  display: flex;
+}
+.main > div {
+  margin: auto;
+  width: 80%;
+  height: 80%;
+  display: grid;
+  grid-gap: 8px;
+  grid-template-areas: "c1 c1 c2" "c3 c4 c2";
+}
+.main > div > div {
+  background: green;
+}
+.c1 {
+  grid-area: c1;
+}
+.c2 {
+  grid-area: c2;
+}
+.c3 {
+  grid-area: c3;
+}
+.c4 {
+  grid-area: c4;
+}

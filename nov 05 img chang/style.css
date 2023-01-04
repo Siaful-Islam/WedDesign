@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.BNP {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background: hotpink;
+}
+.Awamilig {
+  width: 350px;
+  height: 500px;
+  margin: auto;
+  background: url("./c92cdfbfeef95fd0d4988766e92158f5.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.Awamilig:hover {
+  background: url("./observerbd.com_1546544575.jpg");
+  background-size: cover;
+  background-position: center;
+}
